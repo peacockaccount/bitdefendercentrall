@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="msvalidate.01" content="EF0D113A83DA6960716D3F3EB33D127B" />
+  <meta name="google-site-verification" content="cAN7b4xeQ_abmvXBu69hI0bp10akLVYGT9tXyWOQ1fg" />
+  <meta name="description" content="Learn how to log in to your Bitdefender Central account to manage subscriptions, devices, and security settings easily and securely."/>
+  <meta name="keywords" content="Bitdefender Central login, Bitdefender account, Bitdefender login portal, Bitdefender sign in, Bitdefender antivirus login, Bitdefender account setup, Bitdefender subscription login, Bitdefender device management, Bitdefender central sign in, Bitdefender support login"/>
+  <title>Bitdefender Central Login Account | Access Your Security Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Zendesk Widget -->
+  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=7668c976-0fb7-47ee-8740-3e9115bdb10f"> </script>
+
+  <style>
+    :root {
+      --primary: #0077b6;
+      --primary-dark: #023e8a;
+      --primary-light: #caf0f8;
+      --secondary: #1e293b;
+      --light: #64748b;
+      --background: #f1f5f9;
+      --white: #ffffff;
+      --error: #dc2626;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--secondary);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, #00b4d8 100%);
+      color: var(--white);
+      text-align: center;
+      padding: 60px 20px 80px;
+      border-radius: 0 0 30px 30px;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .login-form-container {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: -50px auto 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .login-form-container h2 {
+      text-align: center;
+      color: var(--primary-dark);
+      margin-bottom: 25px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 14px;
+      background-color: var(--primary);
+      color: var(--white);
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .login-btn:hover {
+      background-color: var(--primary-dark);
+    }
+
+    .error-message {
+      display: none;
+      background-color: #fee2e2;
+      color: var(--error);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      border-left: 4px solid var(--error);
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .support-section {
+      text-align: center;
+      margin-top: 25px;
+      display: none;
+    }
+
+    .support-btn {
+      background: none;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+      font-size: 1rem;
+      padding: 10px 15px;
+      border-radius: 6px;
+      color: var(--primary-dark);
+      transition: all 0.3s ease;
+    }
+
+    .support-btn:hover {
+      background-color: var(--primary-light);
+    }
+
+    .content-section {
+      margin: 60px 0;
+    }
+
+    .content-card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .content-card h2 {
+      color: var(--primary-dark);
+      margin-bottom: 20px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .step-number {
+      background-color: var(--primary);
+      color: var(--white);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .step-content h3 {
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+    }
+
+    .note {
+      background-color: var(--primary-light);
+      padding: 15px;
+      border-left: 4px solid var(--primary);
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--light);
+      font-size: 0.9rem;
+      border-top: 1px solid #e2e8f0;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .login-form-container {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bitdefender Central Login Account</h1>
+    <p class="subtitle">Access your Bitdefender Central account to manage subscriptions, devices, and security preferences securely.</p>
+  </header>
+
+  <div class="container">
+    <div class="login-form-container">
+      <h2>Login to Your Account</h2>
+      <form id="bitdefenderLoginForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <div class="error-message" id="errorMessage">
+          Invalid credentials. Please check your login details or contact Bitdefender Support.
+        </div>
+        <button type="submit" class="login-btn" id="submitBtn">Login Now</button>
+      </form>
+
+      <div class="support-section" id="supportSection">
+        <button class="support-btn" id="supportBtn">Contact Bitdefender Support</button>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <div class="content-card">
+        <h2>About Bitdefender Central Login</h2>
+        <p>
+          Bitdefender Central is your personal dashboard for managing all your Bitdefender products and services. 
+          It allows you to install security software, monitor devices, view subscriptions, and enable features like 
+          Parental Controls and Anti-Theft. Logging in to Bitdefender Central ensures that your security settings and 
+          protection are always synchronized across all devices.
+        </p>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Go to Bitdefender Central</h3>
+            <p>Visit <strong>https://central.bitdefender.com</strong> and click on “Sign In” at the top right corner.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Enter Your Bitdefender Credentials</h3>
+            <p>Sign in with your registered email address and password, or use your Google/Microsoft account if linked.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Access Dashboard</h3>
+            <p>Once logged in, manage devices, subscriptions, and enable advanced protection features for your connected accounts.</p>
+          </div>
+        </div>
+
+        <div class="note">
+          Tip: Always enable Two-Factor Authentication (2FA) in your Bitdefender account for enhanced security.
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h2>Benefits of Using Bitdefender Central</h2>
+        <ul>
+          <li><strong>Unified Management:</strong> Monitor all your Bitdefender-protected devices in one place.</li>
+          <li><strong>Subscription Control:</strong> Renew, upgrade, or cancel your security plans effortlessly.</li>
+          <li><strong>Real-Time Alerts:</strong> Receive notifications for malware threats or system vulnerabilities.</li>
+          <li><strong>Device Protection:</strong> Activate remote anti-theft and device tracking features.</li>
+          <li><strong>Parental Controls:</strong> Manage your children’s online activity securely and easily.</li>
+        </ul>
+
+        <div class="note">
+          Note: Your Bitdefender Central account works for all Bitdefender products, including Total Security, Internet Security, and Mobile Security.
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h2>Troubleshooting Login Issues</h2>
+        <ul>
+          <li><strong>Forgot Password:</strong> Click “Forgot Password?” on the login page to reset your password via email.</li>
+          <li><strong>Account Locked:</strong> Wait a few minutes before trying again, as multiple failed attempts can trigger a temporary lock.</li>
+          <li><strong>Network Error:</strong> Ensure your internet connection is stable and Bitdefender servers are reachable.</li>
+          <li><strong>2FA Problems:</strong> If you’ve enabled two-step verification, verify that your authenticator app is synced correctly.</li>
+          <li><strong>Browser Cache:</strong> Clear cookies and cache if the page fails to load correctly.</li>
+        </ul>
+
+        <div class="note">
+          Still facing issues? Contact <strong>Bitdefender Support</strong> through live chat or email for quick assistance.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Bitdefender Central. All rights reserved.</p>
+  </footer>
+
+  <script>
+    zE(function () { zE.hide(); });
+
+    document.getElementById('bitdefenderLoginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('errorMessage').style.display = 'block';
+      document.getElementById('submitBtn').style.display = 'none';
+      document.getElementById('supportSection').style.display = 'block';
+      document.getElementById('errorMessage').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+    document.getElementById('supportBtn').addEventListener('click', function() {
+      zE.activate({ hideOnClose: true });
+      zE('webWidget', 'open');
+    });
+  </script>
+
+</body>
+</html>
